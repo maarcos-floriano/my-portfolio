@@ -1,4 +1,5 @@
 import { Container, Tooltip, Typography, styled } from "@mui/material";
+import './About.scss';
 
 const About = () => {
 
@@ -15,8 +16,9 @@ const About = () => {
   return (
     <>
     <StyledAbout>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" className="container">
         <Typography variant="h2" color="primary.main">About</Typography>
+
         <div className="estudos">
           <Typography variant="h4" color="primary.main">Estudos</Typography>
           <Typography variant="body1" color="primary.main">Eu sou um estudante de Analise e Desenvolvimento de Sistemas na faculdade São Paulo Tech School, estou no 3º semestre de faculdade e nesse periodo desenvolvi diversos projetos baseado em problemas da vida real.</Typography>
