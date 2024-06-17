@@ -49,7 +49,7 @@ const Hero = () => {
                 variant="h2"
                 textAlign="center"
               >
-                Backend Developer Salesforce
+                Backend Developer
               </Typography>
               <Grid
                 container

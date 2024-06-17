@@ -1,7 +1,7 @@
 import { Container, Tooltip, Typography, styled } from "@mui/material";
 import "./About.scss";
 import Projetos from "./Projetos/Projetos.tsx";
-import { Height } from "@mui/icons-material";
+// import { Height } from "@mui/icons-material";
 
 const About = () => {
   const StyledAbout = styled("div")(({ theme }) => ({
